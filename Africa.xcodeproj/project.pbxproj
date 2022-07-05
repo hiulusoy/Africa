@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4A59F42874A98600A9D2E5 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A59F32874A98600A9D2E5 /* AnimalDetailView.swift */; };
 		5F64566828703A9E002C669F /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64566728703A9E002C669F /* AfricaApp.swift */; };
 		5F64566A28703A9E002C669F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64566928703A9E002C669F /* ContentView.swift */; };
 		5F64566C28703AA1002C669F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F64566B28703AA1002C669F /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F4A59F32874A98600A9D2E5 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		5F64566428703A9E002C669F /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F64566728703A9E002C669F /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		5F64566928703A9E002C669F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				5F64569F2870B3BA002C669F /* CoverImageView.swift */,
 				5F6456A728733D0B002C669F /* AnimalListItemView.swift */,
+				5F4A59F32874A98600A9D2E5 /* AnimalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				5F64569D2870B153002C669F /* MainView.swift in Sources */,
 				5F6456A02870B3BA002C669F /* CoverImageView.swift in Sources */,
 				5F6456A32870B550002C669F /* CoverImageModel.swift in Sources */,
+				5F4A59F42874A98600A9D2E5 /* AnimalDetailView.swift in Sources */,
 				5F6456AA28733EFE002C669F /* AnimalModel.swift in Sources */,
 				5F6456982870B127002C669F /* MapView.swift in Sources */,
 				5F64566828703A9E002C669F /* AfricaApp.swift in Sources */,
