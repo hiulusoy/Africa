@@ -13,7 +13,7 @@ struct ContentView: View {
     // MARK: BODY
     var body: some View {
         let animals: [Animal] = Bundle.main.decode("animals.json")
-
+        
         NavigationView{
             List{
                 CoverImageView()
@@ -29,7 +29,7 @@ struct ContentView: View {
             }//: LIST
             .navigationBarTitle("Africa", displayMode: .large)
         }//: NAVIGATION
-    }
+    } //: VIEW
 }
 // MARK: PREVIEW
 struct ContentView_Previews: PreviewProvider {
