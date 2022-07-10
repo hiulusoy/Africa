@@ -59,6 +59,7 @@ struct ContentView: View {
                             }
                             //: LINK
                         }//: LOOP
+                        CreditsView().modifier(CenterModifier())
                     }//: LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
@@ -68,6 +69,7 @@ struct ContentView: View {
                                     AnimalGridItemView(animal: animal)
                                 }//: LINK
                             }//: LOOP
+                            CreditsView()
                         }//: LAZYVGRID
                         .padding()
                         .animation(.easeIn)
